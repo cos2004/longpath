@@ -1,0 +1,16 @@
+{
+  "name": "longpath",
+  "version": "1.0.7",
+  "description": "A simple CLI tool for deleting long-path dir(windows platform)",
+  "main": "index.js",
+  "author": "",
+  "bin": {
+    "lo": "./bin/lo.js",
+    "longpath": "./bin/lo.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^0.10.1",
+    "rimraf": "^2.4.3"
+  }
+}
